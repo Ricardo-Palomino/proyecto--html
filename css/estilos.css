@@ -60,3 +60,63 @@ body {
   .links {
     margin-top: 15px;
     }
+
+    .registro-container {
+        background: #fff;
+        padding: 30px;
+        border-radius:  20px;
+        box-shadow: 0 0 15px rgba(0,0,0,0.1);
+        width: 320px;
+        text-align: center;
+      }
+      
+      .header {
+        background: linear-gradient(to right, #d4145a, #3a8dde);
+        padding: 20px;
+        border-radius: 10px 10px 0 0;
+        color: white;
+        display: flex;
+        align-items: center;
+        gap: 10px;
+        margin: -30px -30px 0px -30px;
+      }
+      
+      .logo-registro {
+        width: 240px;
+
+
+
+        
+      }
+      
+      .titulo-logo h1 {
+        margin: 0;
+        font-size: 18px;
+        font-weight: bold;
+      }
+      
+      .titulo-logo p {
+        margin: 0;
+        font-size: 16px;
+        
+      }
+      
+      form input, form select {
+        width: 100%;
+        padding: 10px;
+        margin: 10px 0;
+        box-sizing: border-box;
+        border: 1px solid #ccc;
+        border-radius: 5px;
+      }
+
+      hr{
+        opacity: 30%;
+      }
+      .cabecera {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        text-align: left;
+        margin-left: 60px;
+      }
