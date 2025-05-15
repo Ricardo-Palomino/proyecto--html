@@ -61,16 +61,16 @@ body {
     margin-top: 15px;
     }
 
-    .registro-container {
+  .registro-container {
         background: #fff;
         padding: 30px;
         border-radius:  20px;
         box-shadow: 0 0 15px rgba(0,0,0,0.1);
         width: 320px;
         text-align: center;
-      }
+    }
       
-      .header {
+  .header {
         background: linear-gradient(to right, #d4145a, #3a8dde);
         padding: 20px;
         border-radius: 10px 10px 0 0;
@@ -79,40 +79,37 @@ body {
         align-items: center;
         gap: 10px;
         margin: -30px -30px 0px -30px;
-      }
+    }
       
-      .logo-registro {
+  .logo-registro {
         width: 240px;
-
-
-
-        
-      }
+    
+   }
       
-      .titulo-logo h1 {
+  .titulo-logo h1 {
         margin: 0;
         font-size: 18px;
         font-weight: bold;
-      }
+    }
       
-      .titulo-logo p {
+  .titulo-logo p {
         margin: 0;
         font-size: 16px;
         
-      }
+    }
       
-      form input, form select {
+  form input, form select {
         width: 100%;
         padding: 10px;
         margin: 10px 0;
         box-sizing: border-box;
         border: 1px solid #ccc;
         border-radius: 5px;
-      }
+    }
 
-      hr{
-        opacity: 30%;
-      }
+  hr{
+      opacity: 30%;
+    }
       .cabecera {
         display: flex;
         align-items: center;
@@ -125,3 +122,142 @@ body {
         opacity: 60%;
         text-align: justify;
       }
+
+      .dashboard-container {
+        width: 360px;
+        background: #fff;
+        border-radius: 20px;
+        box-shadow: 0 0 20px rgba(0,0,0,0.1);
+        overflow: hidden;
+        text-align: center;
+      }
+      
+      .header-dashboard {
+        background: linear-gradient(to right, #d4145a, #3a8dde);
+        color: white;
+        padding: 25px 20px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        gap: 10px;
+      }
+      
+      .icono-avion {
+        width: 40px;
+        height: 40px;
+      }
+      
+      .titulo-header h1 {
+        margin: 0;
+        font-size: 22px;
+        font-weight: bold;
+      }
+      
+      .titulo-header p {
+        margin: 0;
+        font-size: 14px;
+        opacity: 0.9;
+      }
+      
+      .contenido-dashboard {
+        padding: 20px;
+      }
+      
+      .cerrar-sesion {
+        display: inline-block;
+        margin-top: 10px;
+        margin-bottom: 20px;
+        color: #999;
+        font-size: 14px;
+        text-decoration: none;
+      }
+      
+      .opciones {
+        display: flex;
+        flex-direction: column;
+        gap: 15px;
+      }
+      
+      .opcion {
+        border: 1px solid #ddd;
+        border-radius: 10px;
+        padding: 12px 10px;
+        display: flex;
+        align-items: center;
+        justify-content: flex-start;
+        gap: 15px;
+        cursor: pointer;
+        transition: all 0.3s ease;
+      }
+      
+      .opcion:hover {
+        background-color: #f0f8ff;
+      }
+      
+      .opcion img {
+        width: 32px;
+        height: 32px;
+      }
+      
+      .opcion a {
+        text-decoration: none;
+        color: #333;
+        font-weight: 600;
+        font-size: 16px;
+      }
+
+      .contenido-dashboard form {
+        display: flex;
+        flex-direction: column;
+        gap: 12px;
+        margin-top: 10px;
+      }
+      
+      .contenido-dashboard form input[type="text"],
+      .contenido-dashboard form input[type="date"] {
+        padding: 10px;
+        border: 1px solid #ccc;
+        border-radius: 6px;
+        font-size: 14px;
+      }
+      
+      .contenido-dashboard h2 {
+        text-align: left;
+        font-size: 18px;
+        color: #333;
+        margin-bottom: 15px;
+      }
+      
+      .remember {
+        display: flex;
+        align-items: center;
+        gap: 8px;
+        font-size: 14px;
+        color: #555;
+      }
+      .btn {
+        padding: 12px;
+        background-color: #1976d2;
+        color: #fff;
+        font-weight: bold;
+        border: none;
+        border-radius: 6px;
+        cursor: pointer;
+        transition: background-color 0.3s ease;
+      }
+      
+      .btn:hover {
+        background-color: #1565c0;
+      }
+      
+      .cerrar-sesion {
+        font-size: 14px;
+        color: #d32f2f;
+        text-decoration: none;
+        margin-left: 10px;
+      }
+      
+      .cerrar-sesion:hover {
+        text-decoration: underline;
+      }
+      
