@@ -408,11 +408,11 @@ body {
 
 .box_pequeña2 p {
   text-align: left;
-  margin-bottom: 5px;
+  margin-bottom: -30px;
 }
 
 strong {
-  font-size: 20px;
+  font-size: 12px;
 }
 
 .cajita img {
@@ -421,10 +421,6 @@ strong {
   margin-top: -20px;
   margin-bottom: -20px;
   margin-left: -20px;
-}
-
-p{
-  color: grey;
 }
 
 h3 {
