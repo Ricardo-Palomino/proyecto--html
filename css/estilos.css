@@ -18,7 +18,7 @@ body {
   }
 
   .logo {
-    width: 100px;
+    width: 200px;
     margin-bottom: 10px;
   }
 
@@ -45,6 +45,31 @@ body {
     margin-right: 5px;
   }
 
+ .linkmenu {
+  text-decoration: none;
+}
+
+.box img {
+  width: 100px;
+  padding: 0px;
+  margin-top: -20px;
+  margin-bottom: -20px;
+  margin-left: -20px;
+}
+
+.box {
+  background-color: #ffffff;
+  border-radius: 8px;
+  box-shadow: 0 4px 2px 1px rgba(0, 0, 0, 0.15);
+  padding: 20px;
+  margin: 10px 0;
+  border: solid 0.2px rgba(0, 0, 0, 0.15);
+  display:flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+
   .btn {
     background-color: #2196F3;
     color: white;
@@ -62,12 +87,12 @@ body {
     }
 
   .registro-container {
-        background: #fff;
-        padding: 30px;
-        border-radius:  20px;
-        box-shadow: 0 0 15px rgba(0,0,0,0.1);
-        width: 320px;
-        text-align: center;
+  width: 100%;
+  padding: 0;
+  margin: 0;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
     }
       
   .header {
@@ -260,4 +285,55 @@ body {
       .cerrar-sesion:hover {
         text-decoration: underline;
       }
-      
+
+      a{
+        color: grey;
+      }
+
+  .usuario {
+  margin-top: -30px;
+  display: flex;
+  text-align: left;
+}
+
+.usuariotext {
+  display: flex;
+  flex-direction: column;
+}
+
+
+.usuariotext h2 {
+  font-size: 19px;
+  margin-bottom: 10px;
+}
+
+.usuario img {
+  width: 60px;
+  margin-left: -50px;
+  margin-top: 5px;
+}
+    
+.formulario {
+ display: flex;
+ flex-direction: column;
+ padding: 30px;
+ border-top-right-radius: 10px;
+ border-top-left-radius: 10px;
+ background-color: #ffffff;
+ 
+}
+
+
+.soloida {
+  display: flex;
+  justify-content: left;
+  margin: 0px;
+  margin-left: -20px;
+  margin-right: 200px;
+  font-size: 14px;
+
+}
+.soloida input {
+  margin-right: 8px;
+}
+
